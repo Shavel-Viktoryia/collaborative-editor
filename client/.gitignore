@@ -1,0 +1,57 @@
+# Виртуальное окружение
+venv/
+env/
+ENV/
+.venv/
+.server/venv/
+
+# Python-артефакты
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Настройки IDE/редакторов
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Бинарники и зависимости
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Файлы pip и poetry
+pip-log.txt
+poetry.lock
+Pipfile.lock
+
+# Тесты
+coverage.xml
+htmlcov/
+.tox/
+.pytest_cache/
+.nox/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Секреты (если вдруг)
+.env
+.env.*
+
+# VS Code (если ты используешь)
+.vscode/
